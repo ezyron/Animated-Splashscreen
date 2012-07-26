@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDA3627F15C15B32003576DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA3627E15C15B32003576DA /* UIKit.framework */; };
+		DDA3628115C15B32003576DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA3628015C15B32003576DA /* Foundation.framework */; };
+		DDA3628315C15B32003576DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA3628215C15B32003576DA /* CoreGraphics.framework */; };
+		DDA3628915C15B32003576DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDA3628715C15B32003576DA /* InfoPlist.strings */; };
+		DDA3628B15C15B32003576DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA3628A15C15B32003576DA /* main.m */; };
+		DDA3628F15C15B32003576DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA3628E15C15B32003576DA /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DDA3627A15C15B32003576DA /* splashscreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = splashscreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA3627E15C15B32003576DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DDA3628015C15B32003576DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DDA3628215C15B32003576DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DDA3628615C15B32003576DA /* splashscreen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "splashscreen-Info.plist"; sourceTree = "<group>"; };
+		DDA3628815C15B32003576DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DDA3628A15C15B32003576DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDA3628C15C15B32003576DA /* splashscreen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "splashscreen-Prefix.pch"; sourceTree = "<group>"; };
+		DDA3628D15C15B32003576DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDA3628E15C15B32003576DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDA3627715C15B32003576DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA3627F15C15B32003576DA /* UIKit.framework in Frameworks */,
+				DDA3628115C15B32003576DA /* Foundation.framework in Frameworks */,
+				DDA3628315C15B32003576DA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDA3626F15C15B32003576DA = {
+			isa = PBXGroup;
+			children = (
+				DDA3628415C15B32003576DA /* splashscreen */,
+				DDA3627D15C15B32003576DA /* Frameworks */,
+				DDA3627B15C15B32003576DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDA3627B15C15B32003576DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDA3627A15C15B32003576DA /* splashscreen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDA3627D15C15B32003576DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDA3627E15C15B32003576DA /* UIKit.framework */,
+				DDA3628015C15B32003576DA /* Foundation.framework */,
+				DDA3628215C15B32003576DA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDA3628415C15B32003576DA /* splashscreen */ = {
+			isa = PBXGroup;
+			children = (
+				DDA3628D15C15B32003576DA /* AppDelegate.h */,
+				DDA3628E15C15B32003576DA /* AppDelegate.m */,
+				DDA3628515C15B32003576DA /* Supporting Files */,
+			);
+			path = splashscreen;
+			sourceTree = "<group>";
+		};
+		DDA3628515C15B32003576DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDA3628615C15B32003576DA /* splashscreen-Info.plist */,
+				DDA3628715C15B32003576DA /* InfoPlist.strings */,
+				DDA3628A15C15B32003576DA /* main.m */,
+				DDA3628C15C15B32003576DA /* splashscreen-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDA3627915C15B32003576DA /* splashscreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDA3629215C15B32003576DA /* Build configuration list for PBXNativeTarget "splashscreen" */;
+			buildPhases = (
+				DDA3627615C15B32003576DA /* Sources */,
+				DDA3627715C15B32003576DA /* Frameworks */,
+				DDA3627815C15B32003576DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = splashscreen;
+			productName = splashscreen;
+			productReference = DDA3627A15C15B32003576DA /* splashscreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDA3627115C15B32003576DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = DDA3627415C15B32003576DA /* Build configuration list for PBXProject "splashscreen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DDA3626F15C15B32003576DA;
+			productRefGroup = DDA3627B15C15B32003576DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDA3627915C15B32003576DA /* splashscreen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDA3627815C15B32003576DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA3628915C15B32003576DA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDA3627615C15B32003576DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA3628B15C15B32003576DA /* main.m in Sources */,
+				DDA3628F15C15B32003576DA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDA3628715C15B32003576DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDA3628815C15B32003576DA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDA3629015C15B32003576DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDA3629115C15B32003576DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDA3629315C15B32003576DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "splashscreen/splashscreen-Prefix.pch";
+				INFOPLIST_FILE = "splashscreen/splashscreen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DDA3629415C15B32003576DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "splashscreen/splashscreen-Prefix.pch";
+				INFOPLIST_FILE = "splashscreen/splashscreen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDA3627415C15B32003576DA /* Build configuration list for PBXProject "splashscreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA3629015C15B32003576DA /* Debug */,
+				DDA3629115C15B32003576DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDA3629215C15B32003576DA /* Build configuration list for PBXNativeTarget "splashscreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA3629315C15B32003576DA /* Debug */,
+				DDA3629415C15B32003576DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDA3627115C15B32003576DA /* Project object */;
+}
